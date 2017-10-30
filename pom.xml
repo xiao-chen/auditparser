@@ -77,8 +77,13 @@
         </dependency>
         <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-core_2.10</artifactId>
-            <version>1.6.0-cdh5.13.0</version>
+            <artifactId>spark-core_2.11</artifactId>
+            <version>2.2.0.cloudera1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.11</artifactId>
+            <version>2.2.0.cloudera1</version>
         </dependency>
     </dependencies>
 </project>

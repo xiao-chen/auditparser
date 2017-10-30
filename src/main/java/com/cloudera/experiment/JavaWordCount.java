@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.cloudera.wordcount;
+package com.cloudera.experiment;
 
 import java.util.Arrays;
 import java.util.List;
@@ -31,7 +31,7 @@ import scala.Tuple2;
  * See https://github.com/apache/spark/blob/branch-1.6/examples/src/main/java/org/apache/spark/examples/JavaWordCount.java
  *
  * Submit with
- * spark-submit --class com.cloudera.wordcount.JavaWordCount --deploy-mode client --master yarn ~/logparser-1.0.jar /audits/small
+ * spark-submit --class com.cloudera.experiment.JavaWordCount --deploy-mode client --master yarn ~/logparser-1.0.jar /audits/small
  */
 public class JavaWordCount {
 

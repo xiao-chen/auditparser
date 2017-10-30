@@ -16,14 +16,14 @@
   * limitations under the License.
   */
 
-package com.cloudera.wordcount
+package com.cloudera.experiment
 
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 
 /**
-  * spark-submit --class com.cloudera.wordcount.WordCount --deploy-mode client --master yarn ~/logparser-1.0.jar /audits/small
+  * spark-submit --class com.cloudera.experiment.WordCount --deploy-mode client --master yarn ~/logparser-1.0.jar /audits/small
   */
 object WordCount {
   def main(args: Array[String]) {
